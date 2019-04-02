@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 72b8a4ba1c2864543a09c02cc24d2c73
+timeCreated: 1498241425
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - jc: {instanceID: 0}
+  - pj: {instanceID: 0}
+  - brandon: {instanceID: 0}
+  - database: {fileID: 1964335154584394, guid: 0e33e618defecee46a22ffd45795ff12, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

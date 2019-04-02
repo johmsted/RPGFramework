@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+***ITEM TEMPLATE***
+some items won't need value or debuff
+  <item>
+    <name>string</name>
+    <function>int</function>
+    <debuff>string</debuff>
+    <value>int</value>
+  </item>
+-->
+
+<items>
+  <item>
+    <name>Small Potion</name>
+    <function>0</function>
+    <value>10</value>
+  </item>
+
+  <item>
+    <name>Small Elixer</name>
+    <function>1</function>
+    <value>10</value>
+  </item>
+
+  <item>
+    <name>Extinguisher</name>
+    <function>2</function>
+    <debuff>burn</debuff>
+  </item>
+</items>

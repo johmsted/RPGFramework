@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+***SPELL TEMPLATE***
+omit effect and/or element if none
+   <spell>
+    <abilityname>string</abilityname>
+    <type>single/row/col/more tbd</type>
+    <effect>
+      <name>string</name>
+      <chance>float</chance>
+    </effect>
+    <element>fire/wtr/elec/holy/dark</element>
+    <manacost>int</manacost>
+    <mt>int</mt>
+    <issupport>t/f</issupport>
+  </spell>
+-->
+
+<spells>
+  <spell>
+    <abilityname>Fireball</abilityname>
+    <type>single</type>
+    <effect>
+      <name>Burn</name>
+      <chance>0.75</chance>
+    </effect>
+    <element>fire</element>
+    <manacost>4</manacost>
+    <mt>15</mt>
+    <issupport>f</issupport>
+  </spell>
+
+  <spell>
+    <abilityname>Heal</abilityname>
+    <type>single</type>
+    <manacost>5</manacost>
+    <mt>4</mt>
+    <issupport>t</issupport>
+  </spell>
+
+  <spell>
+    <abilityname>Explosion</abilityname>
+    <type>allenemies</type>
+    <element>fire</element>
+    <manacost>25</manacost>
+    <mt>200</mt>
+    <issupport>f</issupport>
+  </spell>
+</spells>
